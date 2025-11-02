@@ -60,7 +60,8 @@ input[type="email"]:focus {
 button {
   padding: 0.6rem 1.4rem;
   border: none;
-  color: currentColor;
+  background-color: currentColor;
+  color: inherit;
   margin-left: 0.5rem;
   border-radius: 6px;
   cursor: pointer;
