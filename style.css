@@ -65,7 +65,6 @@ button {
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
-  filter: blur(var(--blur));
 }
 
 body:not(.night) button {
