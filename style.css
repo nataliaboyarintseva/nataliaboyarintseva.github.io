@@ -1,8 +1,8 @@
 :root {
-  --day-bg: #ffffff;
-  --day-text: #1e6460;
-  --night-bg: #022b2b;
-  --night-text: #ffffff;
+  --day-bg: #faffff;
+  --day-text: #153333;
+  --night-bg: #153333;
+  --night-text: #faffff;
   --blur: 0.6px;
   font-family: "Helvetica Neue", Arial, sans-serif;
   transition: background-color 0.5s ease, color 0.5s ease;
