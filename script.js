@@ -3,7 +3,7 @@ const message = document.getElementById('message');
 
 function updateTheme() {
   const hours = new Date().getHours();
-  document.body.classList.toggle('night', hours >= 11 || hours < 7);
+  document.body.classList.toggle('night', hours >= 19 || hours < 7);
 }
 updateTheme();
 
