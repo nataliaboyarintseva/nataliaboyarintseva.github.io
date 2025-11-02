@@ -60,22 +60,11 @@ input[type="email"]:focus {
 button {
   padding: 0.6rem 1.4rem;
   border: none;
-  background-color: currentColor;
   margin-left: 0.5rem;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
   filter: blur(var(--blur));
-}
-
-button.day {
-  background-color: var(--night-bg);
-  color: var(--night-text);
-}
-
-button.night {
-  background-color: var(--day-bg);
-  color: var(--day-text);
 }
 
 button:hover {
