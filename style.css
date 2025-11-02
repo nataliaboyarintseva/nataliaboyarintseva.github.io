@@ -5,7 +5,7 @@
   --night-text: #ffffff;
   --blur: 0.6px;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  transition: all 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 body {
@@ -30,36 +30,52 @@ body.night {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
+  letter-spacing: 0.05em;
   filter: blur(var(--blur));
 }
 
 .desc {
   margin-bottom: 2rem;
+  font-size: 1.2rem;
+  opacity: 0.8;
 }
 
 input[type="email"] {
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   border: 1px solid currentColor;
   border-radius: 6px;
   font-size: 1rem;
-  width: 220px;
+  width: 230px;
   background: transparent;
   color: inherit;
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  box-shadow: 0 0 6px currentColor;
 }
 
 button {
-  padding: 0.5rem 1.2rem;
+  padding: 0.6rem 1.4rem;
   border: none;
   background-color: currentColor;
   color: inherit;
   margin-left: 0.5rem;
   border-radius: 6px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  filter: blur(var(--blur));
+}
+
+button:hover {
+  transform: scale(1.05);
+  filter: blur(0.3px);
 }
 
 #message {
   margin-top: 1rem;
   font-size: 0.9rem;
-  opacity: 0.8;
+  opacity: 0.85;
 }
