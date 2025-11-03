@@ -68,13 +68,13 @@ button {
 }
 
 body:not(.night) button {
-  background-color: var(--day-bg);
-  color: var(--day-text);
+  background-color: var(--day-text);
+  color: var(--day-bg);
 }
 
 body.night button {
-  background-color: var(--night-bg);
-  color: var(--night-text);
+  background-color: var(--night-text);
+  color: var(--night-bg);
 }
 
 button:hover {
